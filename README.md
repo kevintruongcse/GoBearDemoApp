@@ -12,5 +12,4 @@ This project is based on the requiment of GoBear company. Built-in by Kotlin
 * Show detail article
 
 # Library reference resources
-* Dagger2 : [https://github.com/google/dagger]
 * Page Indicator View : [https://github.com/romandanylyk/PageIndicatorView]
