@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">GoBear Test</string>
+    <string name="username">UserName</string>
+    <string name="password">Password</string>
+    <string name="remember_me">Remember Me</string>
+    <string name="sign_in">Sign In</string>
+    <string name="login_success">Login Successfully</string>
+    <string name="login_error">UserName: GoBear \nPassword: GoBearDemo</string>
+    <string name="skip">Skip</string>
+    <string name="done">done</string>
+    <string name="intro_msg">In a nutshell, GoBear makes it simple for you to compare insurance plans and financial
+        products to find the one that’s right for you. We take all the complicated and, let’s face it, boring
+        information from banks and insurance providers, make it easy-to-understand and put it on your computer screen,
+        tablet or phone in a way that makes it easy for you to compare apples with apples. That’s it. No trick or
+        surprises from us. (Except the good kind of surprises. We like those.)
+    </string>
+    <string name="rss_host">http://feeds.bbci.co.uk/news/world/asia/rss.xml</string>
+    <string name="network_error">Network error</string>
+    <string name="no_data">EMPTY DATA</string>
+    <string name="retry">Retry</string>
+    <string name="logout">Logout</string>
+
+</resources>

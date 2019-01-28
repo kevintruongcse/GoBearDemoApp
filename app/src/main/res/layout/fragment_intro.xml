@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent" android:orientation="vertical"
+                android:layout_height="match_parent">
+    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ic_logo"
+            android:id="@+id/imgLogo"
+            android:paddingTop="@dimen/padding_medium"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/padding_normal"
+            tools:ignore="ContentDescription"/>
+
+    <TextView android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:layout_below="@id/imgLogo"
+              android:id="@+id/txtContent"
+              android:lineSpacingExtra="@dimen/padding_tiny"
+              android:text="@string/intro_msg"
+              android:layout_margin="@dimen/padding_small"/>
+</RelativeLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="?android:attr/selectableItemBackground"
+        android:layout_margin="@dimen/padding_small">
+
+    <ImageView
+            android:layout_width="@dimen/size_thumbnail"
+            android:layout_height="@dimen/size_thumbnail"
+            android:src="@drawable/icon"
+            android:id="@+id/imgThumbnail"
+            android:contentDescription="@null"/>
+
+    <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginStart="@dimen/padding_small"
+            android:layout_marginLeft="@dimen/padding_small"
+            tools:ignore="RtlHardcoded">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:textSize="@dimen/text_size_large"
+                android:id="@+id/txtTitle"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="@dimen/padding_tiny"
+                android:textSize="@dimen/text_size_normal"
+                android:textStyle="bold"
+                android:id="@+id/txtPublishDate"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:paddingTop="@dimen/padding_tiny"
+                android:layout_height="wrap_content"
+                android:maxLines="4"
+                android:textSize="@dimen/text_size_normal"
+                android:ellipsize="end"
+                android:lineSpacingExtra="1.5dp"
+                android:id="@+id/txtDescription"/>
+    </LinearLayout>
+</LinearLayout>
